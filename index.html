@@ -1,0 +1,1507 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Prime Time, Academy.</title>
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <link
+      href="https://api.fontshare.com/v2/css?f[]=nippo@400&f[]=clash-display@400,500&f[]=chillax@500&f[]=gambetta@400&f[]=general-sans@400,600&f[]=trench-slab@500&f[]=hind@400&f[]=khand@700&f[]=ranade@300&f[]=excon@500&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/swiper/swiper-bundle.min.css"
+    />
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
+  </head>
+  <body>
+    <!-- Navigation -->
+    <nav
+      class="navbar navbar-expand-lg navbar-dark sticky-top py-4"
+      style="min-height: 90px"
+    >
+      <div class="container">
+        <a
+          class="navbar-brand fw-bold d-flex align-items-center"
+          href="#"
+          style="font-family: 'Khand', sans-serif"
+        >
+          <img
+            src="img/logo.png"
+            alt="Bright Future Logo"
+            style="height: 48px; width: auto"
+            class="me-2"
+          />
+          <span style="font-family: 'Khand', sans-serif; font-size: 60px"
+            >Prime Time</span
+          >
+        </a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a class="nav-link active" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#about">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#programs">Programs</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#admissions">Admissions</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#contact">Contact</a>
+            </li>
+            <li class="nav-item ms-lg-3 d-flex align-items-center">
+              <button
+                class="dark-mode-toggle me-3"
+                id="darkModeToggle"
+                aria-label="Toggle dark mode"
+                title="Toggle dark mode"
+              >
+                <span id="darkModeIcon" style="font-size: 1.2rem">
+                  <i class="fas fa-moon"></i>
+                </span>
+              </button>
+              <a
+                class="btn btn-accent"
+                href="#"
+                data-bs-toggle="modal"
+                data-bs-target="#enrollModal"
+                >Enroll Now</a
+              >
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero-section position-relative">
+      <div class="swiper hero-swiper">
+        <div class="swiper-wrapper">
+          <!-- Slide 1 -->
+          <div class="swiper-slide position-relative">
+            <img
+              src="img/baby.webp"
+              class="w-100"
+              style="object-fit: cover; height: 400px"
+              alt="Classroom"
+            />
+            <div
+              class="hero-slide-overlay position-absolute top-50 start-50 translate-middle text-center w-100"
+              style="z-index: 2"
+            >
+              <h1 class="display-4 fw-bold mb-4 text-white text-shadow">
+                Innovative Education for Tomorrow's Leaders
+              </h1>
+              <p class="lead mb-5 text-white text-shadow">
+                Where curiosity meets opportunity in a dynamic learning
+                environment
+              </p>
+              <div class="d-flex gap-3 justify-content-center">
+                <a href="#programs" class="btn btn-primary btn-lg px-4"
+                  >Explore Programs</a
+                >
+                <a href="#contact" class="btn btn-outline-light btn-lg px-4"
+                  >Visit Us</a
+                >
+              </div>
+            </div>
+          </div>
+          <!-- Slide 2 -->
+          <div class="swiper-slide position-relative">
+            <img
+              src="img/black kids.jpg"
+              class="w-100"
+              style="object-fit: cover; height: 400px"
+              alt="Students Learning"
+            />
+            <div
+              class="hero-slide-overlay position-absolute top-50 start-50 translate-middle text-center w-100"
+              style="z-index: 2"
+            >
+              <h1 class="display-4 fw-bold mb-4 text-white text-shadow">
+                Empowering Every Student to Succeed
+              </h1>
+              <p class="lead mb-5 text-white text-shadow">
+                Personalized learning paths for lifelong achievement
+              </p>
+              <div class="d-flex gap-3 justify-content-center">
+                <a href="#about" class="btn btn-primary btn-lg px-4"
+                  >Learn More</a
+                >
+                <a href="#admissions" class="btn btn-outline-light btn-lg px-4"
+                  >Apply Now</a
+                >
+              </div>
+            </div>
+          </div>
+          <!-- Slide 3 -->
+          <div class="swiper-slide position-relative">
+            <img
+              src="img/celeb.jpg"
+              class="w-100"
+              style="object-fit: cover; height: 400px"
+              alt="Education Technology"
+            />
+            <div
+              class="hero-slide-overlay position-absolute top-50 start-50 translate-middle text-center w-100"
+              style="z-index: 2"
+            >
+              <h1 class="display-4 fw-bold mb-4 text-white text-shadow">
+                Discover. Create. Inspire.
+              </h1>
+              <p class="lead mb-5 text-white text-shadow">
+                Join a community where innovation and creativity thrive
+              </p>
+              <div class="d-flex gap-3 justify-content-center">
+                <a href="#events" class="btn btn-primary btn-lg px-4"
+                  >See Events</a
+                >
+                <a href="#contact" class="btn btn-outline-light btn-lg px-4"
+                  >Contact Us</a
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- Swiper Navigation -->
+        <div class="swiper-button-next"></div>
+        <div class="swiper-button-prev"></div>
+      </div>
+    </section>
+
+    <!-- Stats Section -->
+    <section class="py-4" style="background: var(--light-gradient)">
+      <div class="container">
+        <div class="row g-4 text-center">
+          <div class="col-md-3">
+            <div class="p-3">
+              <div class="stat-number">98%</div>
+              <div>Graduation Rate</div>
+            </div>
+          </div>
+          <div class="col-md-3">
+            <div class="p-3">
+              <div class="stat-number">24:1</div>
+              <div>Student-Teacher Ratio</div>
+            </div>
+          </div>
+          <div class="col-md-3">
+            <div class="p-3">
+              <div class="stat-number">15+</div>
+              <div>AP Courses Offered</div>
+            </div>
+          </div>
+          <div class="col-md-3">
+            <div class="p-3">
+              <div class="stat-number">100%</div>
+              <div>College Acceptance</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="py-5">
+      <div class="container">
+        <div class="row align-items-center">
+          <div class="col-lg-6 mb-5 mb-lg-0">
+            <span class="badge btn btn-primary">About Us</span>
+            <h2 class="mb-4 section-title">
+              Redefining Education for the Digital Age
+            </h2>
+            <p class="lead">
+              Prime Time Academy combines academic excellence with innovative
+              teaching methods to prepare students for the challenges of
+              tomorrow.
+            </p>
+            <p>
+              Our state-of-the-art campus features cutting-edge technology,
+              collaborative learning spaces, and a curriculum designed to foster
+              critical thinking and creativity.
+            </p>
+
+            <!-- List -->
+            <ul class="list-group mb-4 border-0">
+              <li class="list-group-item border-0 ps-0">
+                <i
+                  class="fas fa-check-circle text-primary me-2"
+                  aria-hidden="true"
+                ></i>
+                Project-based learning
+              </li>
+              <li class="list-group-item border-0 ps-0">
+                <i
+                  class="fas fa-check-circle text-primary me-2"
+                  aria-hidden="true"
+                ></i>
+                STEM-focused curriculum
+              </li>
+              <li class="list-group-item border-0 ps-0">
+                <i
+                  class="fas fa-check-circle text-primary me-2"
+                  aria-hidden="true"
+                ></i>
+                Personalized learning plans
+              </li>
+            </ul>
+            <button class="btn btn-primary">Learn More</button>
+          </div>
+          <div class="col-lg-6">
+            <div class="position-relative">
+              <img
+                src="img/os3.jpg"
+                alt="School Building"
+                class="img-fluid rounded-3 shadow"
+              />
+              <div
+                class="position-absolute bottom-0 start-0 translate-middle-y ms-4"
+              >
+                <div class="card shadow-sm">
+                  <div class="card-body p-3 text-center">
+                    <div class="stat-number">65+</div>
+                    <p
+                      class="mb-0 text-muted"
+                      style="font-size: 1.2rem; font-weight: 500"
+                    >
+                      Years of Excellence
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Events Section -->
+    <section class="py-5" style="background: var(--light-gradient)">
+      <div class="container">
+        <div class="text-center mb-5">
+          <span class="badge btn btn-primary">Upcoming Events</span>
+          <h2 class="mb-3 section-title">School Activities & Sports</h2>
+          <p class="lead">Join our vibrant school community events</p>
+        </div>
+
+        <div class="events-container">
+          <!-- Event Card 1 -->
+          <div class="event-card">
+            <div class="event-date">
+              <div>JUN 10</div>
+              <small>Friday, 4:00 PM</small>
+            </div>
+            <div class="event-body">
+              <h5>Basketball Championship</h5>
+              <p>Primesity vs. City's Pack Rivals</p>
+              <p class="small">
+                <i class="fas fa-map-marker-alt me-2"></i>School Gymnasium
+              </p>
+              <button class="btn btn-sm btn-primary">More Info</button>
+            </div>
+          </div>
+
+          <!-- Event Card 2 -->
+          <div class="event-card">
+            <div class="event-date">
+              <div>JUN 15</div>
+              <small>Wednesday, 6:00 PM</small>
+            </div>
+            <div class="event-body">
+              <h5>Science Fair Exhibition</h5>
+              <p>Student projects showcase</p>
+              <p class="small">
+                <i class="fas fa-map-marker-alt me-2"></i>Science Laboratory
+              </p>
+              <button class="btn btn-sm btn-primary">More Info</button>
+            </div>
+          </div>
+
+          <!-- Event Card 3 -->
+          <div class="event-card">
+            <div class="event-date">
+              <div>JUN 20</div>
+              <small>Monday, 7:00 PM</small>
+            </div>
+            <div class="event-body">
+              <h5>Spring Music Concert</h5>
+              <p>Orchestra & Choir Performance</p>
+              <p class="small">
+                <i class="fas fa-map-marker-alt me-2"></i>Auditorium
+              </p>
+              <button class="btn btn-sm btn-primary">More Info</button>
+            </div>
+          </div>
+
+          <!-- Event Card 4 -->
+          <div class="event-card">
+            <div class="event-date">
+              <div>JUN 25</div>
+              <small>Saturday, 9:00 AM</small>
+            </div>
+            <div class="event-body">
+              <h5>Community Service Day</h5>
+              <p>Neighborhood clean-up</p>
+              <p class="small">
+                <i class="fas fa-map-marker-alt me-2"></i>Meet at Main Entrance
+              </p>
+              <button class="btn btn-sm btn-primary">More Info</button>
+            </div>
+          </div>
+
+          <!-- Event Card 5 -->
+          <div class="event-card">
+            <div class="event-date">
+              <div>JUN 30</div>
+              <small>Thursday, 5:30 PM</small>
+            </div>
+            <div class="event-body">
+              <h5>Debate Tournament</h5>
+              <p>Regional finals competition</p>
+              <p class="small">
+                <i class="fas fa-map-marker-alt me-2"></i>Library Conference
+                Room
+              </p>
+              <button class="btn btn-sm btn-primary">More Info</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Programs Section -->
+    <section id="programs" class="py-5">
+      <div class="container">
+        <div class="text-center mb-5">
+          <span class="badge btn btn-primary">Our Programs</span>
+          <h2 class="mb-3 section-title">
+            Academic Pathways for Every Student
+          </h2>
+          <p class="lead">
+            Customized learning experiences to match each student's goals and
+            interests
+          </p>
+        </div>
+
+        <!-- Bootstrap Tabs -->
+        <ul
+          class="nav nav-tabs justify-content-center mb-4"
+          id="programTabs"
+          role="tablist"
+        >
+          <li class="nav-item" role="presentation">
+            <button
+              class="nav-link active"
+              id="elementary-tab"
+              data-bs-toggle="tab"
+              data-bs-target="#elementary"
+              type="button"
+              role="tab"
+            >
+              Elementary
+            </button>
+          </li>
+          <li class="nav-item" role="presentation">
+            <button
+              class="nav-link"
+              id="middle-tab"
+              data-bs-toggle="tab"
+              data-bs-target="#middle"
+              type="button"
+              role="tab"
+            >
+              Middle School
+            </button>
+          </li>
+          <li class="nav-item" role="presentation">
+            <button
+              class="nav-link"
+              id="high-tab"
+              data-bs-toggle="tab"
+              data-bs-target="#high"
+              type="button"
+              role="tab"
+            >
+              High School
+            </button>
+          </li>
+          <li class="nav-item" role="presentation">
+            <button
+              class="nav-link"
+              id="extracurricular-tab"
+              data-bs-toggle="tab"
+              data-bs-target="#extracurricular"
+              type="button"
+              role="tab"
+            >
+              Extracurricular
+            </button>
+          </li>
+        </ul>
+
+        <div class="tab-content py-4" id="programTabsContent">
+          <div
+            class="tab-pane fade show active"
+            id="elementary"
+            role="tabpanel"
+          >
+            <div class="row align-items-center">
+              <div class="col-md-6">
+                <h3 class="mb-4">Foundations for Lifelong Learning</h3>
+                <p>
+                  Our elementary program nurtures curiosity and builds strong
+                  academic foundations through hands-on, experiential learning.
+                </p>
+                <ul class="mb-4">
+                  <li class="mb-2">Integrated STEM curriculum</li>
+                  <li class="mb-2">Social-emotional learning focus</li>
+                  <li class="mb-2">Individualized reading programs</li>
+                  <li>Outdoor education experiences</li>
+                </ul>
+                <button class="btn btn-primary">Explore Elementary</button>
+              </div>
+              <div class="col-md-6 mt-4 mt-md-0">
+                <img
+                  src="img/campus.jpg"
+                  alt="Elementary Students"
+                  class="img-fluid rounded-3 shadow"
+                />
+              </div>
+            </div>
+          </div>
+          <div class="tab-pane fade" id="middle" role="tabpanel">
+            <div class="row align-items-center">
+              <div class="col-md-6">
+                <h3 class="mb-4">Building Independence and Confidence</h3>
+                <p>
+                  Our middle school program supports students through this
+                  critical developmental period with academic challenge and
+                  emotional support.
+                </p>
+                <ul class="mb-4">
+                  <li class="mb-2">Advisory program for social support</li>
+                  <li class="mb-2">Exploratory elective courses</li>
+                  <li class="mb-2">Leadership opportunities</li>
+                  <li>Integrated technology curriculum</li>
+                </ul>
+                <button class="btn btn-primary">Explore Middle School</button>
+              </div>
+              <div class="col-md-6 mt-4 mt-md-0">
+                <img
+                  src="img/stares.jpg"
+                  alt="Middle School Students"
+                  class="img-fluid rounded-3 shadow"
+                />
+              </div>
+            </div>
+          </div>
+          <div class="tab-pane fade" id="high" role="tabpanel">
+            <div class="row align-items-center">
+              <div class="col-md-6">
+                <h3 class="mb-4">College and Career Readiness</h3>
+                <p>
+                  Our comprehensive high school program prepares students for
+                  success in college and beyond with rigorous academics and
+                  real-world experiences.
+                </p>
+                <ul class="mb-4">
+                  <li class="mb-2">25+ AP and Honors courses</li>
+                  <li class="mb-2">Dual enrollment opportunities</li>
+                  <li class="mb-2">Career pathway programs</li>
+                  <li>Comprehensive college counseling</li>
+                </ul>
+                <button class="btn btn-primary">Explore High School</button>
+              </div>
+              <div class="col-md-6 mt-4 mt-md-0">
+                <img
+                  src="img/plot.jpg"
+                  alt="High School Students"
+                  class="img-fluid rounded-3 shadow"
+                />
+              </div>
+            </div>
+          </div>
+          <div class="tab-pane fade" id="extracurricular" role="tabpanel">
+            <div class="row align-items-center">
+              <div class="col-md-6">
+                <h3 class="mb-4">Beyond the Classroom</h3>
+                <p>
+                  Our extracurricular programs allow students to explore
+                  passions, develop talents, and build community.
+                </p>
+                <ul class="mb-4">
+                  <li class="mb-2">Competitive athletics program</li>
+                  <li class="mb-2">Performing and visual arts</li>
+                  <li class="mb-2">Academic competitions</li>
+                  <li>Community service initiatives</li>
+                </ul>
+                <button class="btn btn-primary">Explore Activities</button>
+              </div>
+              <div class="col-md-6 mt-4 mt-md-0">
+                <img
+                  src="img/bb.webp"
+                  alt="Extracurricular Activities"
+                  class="img-fluid rounded-3 shadow"
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Features Section -->
+    <section class="py-5" style="background: var(--light-gradient)">
+      <div class="container">
+        <div class="text-center mb-5">
+          <span class="badge btn btn-primary">Why Choose Us</span>
+          <h2 class="mb-3 section-title">Our Differentiators</h2>
+          <p class="lead">What sets Prime Time Academy apart</p>
+        </div>
+        <div class="row g-4">
+          <div class="col-md-4">
+            <div class="card h-100 border-0 shadow-sm">
+              <div class="card-body p-4 text-center">
+                <div class="feature-icon mb-3">
+                  <i class="fas fa-laptop-code"></i>
+                </div>
+                <h4 class="mb-3">Technology Integration</h4>
+                <p>
+                  1:1 device program with cutting-edge educational technology
+                  across all grade levels.
+                </p>
+                <!-- Tooltip 1 -->
+                <button
+                  type="button"
+                  class="btn btn-link p-0"
+                  data-bs-toggle="tooltip"
+                  data-bs-placement="bottom"
+                  title="Our students consistently outperform in digital literacy assessments"
+                >
+                  Learn more <i class="fas fa-chevron-right small ms-1"></i>
+                </button>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="card h-100 border-0 shadow-sm">
+              <div class="card-body p-4 text-center">
+                <div class="feature-icon mb-3">
+                  <i class="fas fa-globe-americas"></i>
+                </div>
+                <h4 class="mb-3">Global Perspective</h4>
+                <p>
+                  Language immersion programs and international partnerships for
+                  a worldview.
+                </p>
+                <button
+                  type="button"
+                  class="btn btn-link p-0"
+                  data-bs-toggle="tooltip"
+                  data-bs-placement="bottom"
+                  title="We offer exchange programs with schools in 5 countries"
+                >
+                  Learn more <i class="fas fa-chevron-right small ms-1"></i>
+                </button>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="card h-100 border-0 shadow-sm">
+              <div class="card-body p-4 text-center">
+                <div class="feature-icon mb-3">
+                  <i class="fas fa-heart"></i>
+                </div>
+                <h4 class="mb-3">Wellness Focus</h4>
+                <p>
+                  Comprehensive programs supporting student mental health and
+                  wellbeing.
+                </p>
+                <button type="button" class="btn btn-link p-0">
+                  Learn more <i class="fas fa-chevron-right small ms-1"></i>
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Testimonials Slider -->
+    <section class="py-5">
+      <div class="container">
+        <div class="text-center mb-5">
+          <span class="badge btn btn-primary">Testimonials</span>
+          <h2 class="mb-3 section-title">Hear From Our Community</h2>
+        </div>
+
+        <!-- Carousel/Slider -->
+        <div
+          id="testimonialSlider"
+          class="carousel slide"
+          data-bs-ride="carousel"
+        >
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <div class="row justify-content-center">
+                <div class="col-lg-8">
+                  <div class="card border-0 shadow-sm">
+                    <div class="card-body p-5 text-center">
+                      <img
+                        src="img/l1.jpg"
+                        alt="Parent"
+                        class="testimonial-img mb-4"
+                      />
+                      <div class="mb-4">
+                        <i
+                          class="fas fa-quote-left text-primary opacity-25 fa-2x mb-3"
+                        ></i>
+                        <p class="lead fst-italic">
+                          Prime Time Academy has provided my child with an
+                          exceptional education and countless opportunities to
+                          grow as a person. The teachers go above and beyond to
+                          make learning engaging and meaningful.
+                        </p>
+                      </div>
+                      <h5 class="mb-1">Sarah Johnson</h5>
+                      <p class="text-muted">Parent of 5th grader</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <div class="row justify-content-center">
+                <div class="col-lg-8">
+                  <div class="card border-0 shadow-sm">
+                    <div class="card-body p-5 text-center">
+                      <img
+                        src="img/m1.webp"
+                        alt="Parent"
+                        class="testimonial-img mb-4"
+                      />
+                      <div class="mb-4">
+                        <i
+                          class="fas fa-quote-left text-primary opacity-25 fa-2x mb-3"
+                        ></i>
+                        <p class="lead fst-italic">
+                          The college counseling program at Bright Future was
+                          invaluable for my daughter. They helped her navigate
+                          the entire application process and find schools that
+                          were the perfect fit for her goals.
+                        </p>
+                      </div>
+                      <h5 class="mb-1">Michael Chen</h5>
+                      <p class="text-muted">Parent of graduate</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <div class="row justify-content-center">
+                <div class="col-lg-8">
+                  <div class="card border-0 shadow-sm">
+                    <div class="card-body p-5 text-center">
+                      <img
+                        src="img/l4.webp"
+                        alt="Student"
+                        class="testimonial-img mb-4"
+                      />
+                      <div class="mb-4">
+                        <i
+                          class="fas fa-quote-left text-primary opacity-25 fa-2x mb-3"
+                        ></i>
+                        <p class="lead fst-italic">
+                          I love how the teachers at Bright Future make learning
+                          interactive and relevant. The project-based approach
+                          helps my kids understands how what they're learning
+                          applies to the real world.
+                        </p>
+                      </div>
+                      <h5 class="mb-1">Emily Rodriguez</h5>
+                      <p class="text-muted">Parent of 6th grade student</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <button
+            class="carousel-control-prev"
+            type="button"
+            data-bs-target="#testimonialSlider"
+            data-bs-slide="prev"
+          >
+            <span
+              class="carousel-control-prev-icon bg-primary rounded-circle p-3"
+              aria-hidden="true"
+            ></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button
+            class="carousel-control-next"
+            type="button"
+            data-bs-target="#testimonialSlider"
+            data-bs-slide="next"
+          >
+            <span
+              class="carousel-control-next-icon bg-primary rounded-circle p-3"
+              aria-hidden="true"
+            ></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+      </div>
+    </section>
+
+    <!-- Admissions Section with Accordion -->
+    <section
+      id="admissions"
+      class="py-5"
+      style="background: var(--light-gradient)"
+    >
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-6 mb-5 mb-lg-0">
+            <span class="badge btn btn-primary">Admissions</span>
+            <h2 class="mb-4 section-title">Join Our Community</h2>
+            <p class="lead">
+              We're thrilled you're considering Prime Time Academy for your
+              child's education.
+            </p>
+            <p>
+              Our admissions process is designed to help us get to know your
+              family and ensure we're the right fit for your child's educational
+              needs.
+            </p>
+
+            <!-- Accordion -->
+            <div class="accordion mt-4" id="admissionsAccordion">
+              <div class="accordion-item border-0 mb-3 shadow-sm">
+                <h2 class="accordion-header" id="headingOne">
+                  <button
+                    class="accordion-button collapsed rounded-3"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#collapseOne"
+                  >
+                    <span class="me-3 fw-bold text-primary">1</span> Inquiry &
+                    Tour
+                  </button>
+                </h2>
+                <div
+                  id="collapseOne"
+                  class="accordion-collapse collapse"
+                  data-bs-parent="#admissionsAccordion"
+                >
+                  <div class="accordion-body">
+                    <p>
+                      Begin by submitting an inquiry form or attending one of
+                      our open house events. We encourage all families to
+                      schedule a campus tour to experience our community
+                      firsthand.
+                    </p>
+                    <button class="btn btn-sm btn-primary">
+                      Schedule Tour
+                    </button>
+                  </div>
+                </div>
+              </div>
+              <div class="accordion-item border-0 mb-3 shadow-sm">
+                <h2 class="accordion-header" id="headingTwo">
+                  <button
+                    class="accordion-button collapsed rounded-3"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#collapseTwo"
+                  >
+                    <span class="me-3 fw-bold text-primary">2</span> Application
+                  </button>
+                </h2>
+                <div
+                  id="collapseTwo"
+                  class="accordion-collapse collapse"
+                  data-bs-parent="#admissionsAccordion"
+                >
+                  <div class="accordion-body">
+                    <p>
+                      Complete our online application form and submit the
+                      required documents, including academic records and teacher
+                      recommendations. Our application fee is #35,000.
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="accordion-item border-0 mb-3 shadow-sm">
+                <h2 class="accordion-header" id="headingThree">
+                  <button
+                    class="accordion-button collapsed rounded-3"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#collapseThree"
+                  >
+                    <span class="me-3 fw-bold text-primary">3</span> Student
+                    Visit
+                  </button>
+                </h2>
+                <div
+                  id="collapseThree"
+                  class="accordion-collapse collapse"
+                  data-bs-parent="#admissionsAccordion"
+                >
+                  <div class="accordion-body">
+                    <p>
+                      Applicants spend a day visiting the school to participate
+                      in classes and meet potential classmates. This helps us
+                      assess fit and ensure proper placement.
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="accordion-item border-0 shadow-sm">
+                <h2 class="accordion-header" id="headingFour">
+                  <button
+                    class="accordion-button collapsed rounded-3"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#collapseFour"
+                  >
+                    <span class="me-3 fw-bold text-primary">4</span> Decision
+                  </button>
+                </h2>
+                <div
+                  id="collapseFour"
+                  class="accordion-collapse collapse"
+                  data-bs-parent="#admissionsAccordion"
+                >
+                  <div class="accordion-body">
+                    <p>
+                      Admissions decisions are typically communicated within two
+                      weeks of completing all application requirements. Accepted
+                      students will receive enrollment contracts and information
+                      about next steps.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-6">
+            <div class="card border-0 shadow-sm h-100">
+              <div class="card-body p-4">
+                <h3 class="mb-4">Upcoming Admissions Events</h3>
+
+                <div class="d-flex mb-4">
+                  <div class="flex-shrink-0 me-4">
+                    <div
+                      class="gradient-bg rounded-3 text-center p-3"
+                      style="width: 80px"
+                    >
+                      <div class="fw-bold">JUN</div>
+                      <div class="display-6 fw-bold">15</div>
+                    </div>
+                  </div>
+                  <div>
+                    <h5 class="mt-1">Virtual Open House</h5>
+                    <p class="text-muted">
+                      <i class="far fa-clock me-1"></i> 6:00 PM - 7:30 PM
+                    </p>
+                    <p>
+                      Join us online to learn more about our programs and meet
+                      our faculty.
+                    </p>
+                    <button class="btn btn-sm btn-primary">Register</button>
+                  </div>
+                </div>
+
+                <div class="d-flex">
+                  <div class="flex-shrink-0 me-4">
+                    <div
+                      class="gradient-bg rounded-3 text-center p-3"
+                      style="width: 80px"
+                    >
+                      <div class="fw-bold">JUN</div>
+                      <div class="display-6 fw-bold">22</div>
+                    </div>
+                  </div>
+                  <div>
+                    <h5 class="mt-1">Campus Tour Day</h5>
+                    <p class="text-muted">
+                      <i class="far fa-clock me-1"></i> 10:00 AM - 2:00 PM
+                    </p>
+                    <p>
+                      Visit our campus and see our facilities in person. Tours
+                      available every 30 minutes.
+                    </p>
+                    <button class="btn btn-sm btn-primary">
+                      Schedule Tour
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact Section / Form -->
+    <section id="contact" class="py-5">
+      <div class="container">
+        <div class="text-center mb-5">
+          <span class="badge btn btn-primary">Contact Us</span>
+          <h2 class="mb-3 section-title">We'd Love to Hear From You</h2>
+          <p class="lead">Have questions? Reach out to our admissions team</p>
+        </div>
+        <div class="row">
+          <div class="col-lg-5 mb-5 mb-lg-0">
+            <div class="card border-0 shadow-sm h-100">
+              <div class="card-body p-4">
+                <h3 class="mb-4">Get in Touch</h3>
+                <p>
+                  We're here to help you learn more about Bright Future Academy
+                  and guide you through the admissions process.
+                </p>
+
+                <ul class="list-unstyled mt-4">
+                  <li class="mb-3">
+                    <i class="fas fa-map-marker-alt text-primary me-2"></i> 123
+                    Education Lane, Prime Time City, Nigeria
+                  </li>
+                  <li class="mb-3">
+                    <i class="fas fa-phone text-primary me-2"></i> (555)
+                    123-4567
+                  </li>
+                  <li class="mb-3">
+                    <i class="fas fa-envelope text-primary me-2"></i>
+                    info@PrimeTime.edu
+                  </li>
+                  <li class="mb-3">
+                    <i class="fas fa-clock text-primary me-2"></i> Office Hours:
+                    Mon-Fri, 8:00 AM - 5:00 PM
+                  </li>
+                </ul>
+
+                <div class="mt-4">
+                  <h5 class="mb-3">Follow Us</h5>
+                  <div class="d-flex gap-2">
+                    <a
+                      href="#"
+                      class="social-icon"
+                      style="text-decoration: none"
+                      ><i class="fab fa-facebook-f"></i
+                    ></a>
+                    <a
+                      href="#"
+                      style="text-decoration: none"
+                      class="social-icon"
+                      ><i class="fab fa-twitter"></i
+                    ></a>
+                    <a
+                      href="#"
+                      style="text-decoration: none"
+                      class="social-icon"
+                      ><i class="fab fa-instagram"></i
+                    ></a>
+                    <a
+                      href="#"
+                      style="text-decoration: none"
+                      class="social-icon"
+                      ><i class="fab fa-linkedin-in"></i
+                    ></a>
+                    <a
+                      href="#"
+                      style="text-decoration: none"
+                      class="social-icon"
+                      ><i class="fab fa-youtube"></i
+                    ></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-7">
+            <!-- Bootstrap Form -->
+            <div class="card border-0 shadow-sm">
+              <div class="card-body p-4">
+                <h3 class="mb-4">Send Us a Message</h3>
+                <form>
+                  <div class="row">
+                    <div class="col-md-6 mb-3">
+                      <label for="name" class="form-label">Name</label>
+                      <input
+                        type="text"
+                        class="form-control"
+                        id="name"
+                        required
+                      />
+                    </div>
+                    <div class="col-md-6 mb-3">
+                      <label for="email" class="form-label">Email</label>
+                      <input
+                        type="email"
+                        class="form-control"
+                        id="email"
+                        required
+                      />
+                    </div>
+                  </div>
+                  <div class="mb-3">
+                    <label for="phone" class="form-label">Phone</label>
+                    <input type="tel" class="form-control" id="phone" />
+                  </div>
+                  <div class="mb-3">
+                    <label for="subject" class="form-label">Subject</label>
+                    <select class="form-select" id="subject" required>
+                      <option value="" selected disabled>
+                        Select a subject
+                      </option>
+                      <option>Admissions Inquiry</option>
+                      <option>General Information</option>
+                      <option>School Tour</option>
+                      <option>Other</option>
+                    </select>
+                  </div>
+                  <div class="mb-3">
+                    <label for="message" class="form-label">Message</label>
+                    <textarea
+                      class="form-control"
+                      id="message"
+                      rows="5"
+                      required
+                    ></textarea>
+                  </div>
+                  <div class="mb-3 form-check">
+                    <input
+                      type="checkbox"
+                      class="form-check-input"
+                      id="newsletter"
+                    />
+                    <label class="form-check-label" for="newsletter"
+                      >Subscribe to our newsletter</label
+                    >
+                  </div>
+                  <button type="submit" class="btn btn-primary">
+                    Send Message
+                  </button>
+                </form>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+      <div class="container">
+        <div class="row g-4">
+          <div class="col-lg-4">
+            <h5 class="text-white mb-4">Prime Time Academy</h5>
+            <p>
+              Preparing students for success in college, career, and life
+              through a challenging and supportive learning environment.
+            </p>
+            <div class="d-flex gap-2 mt-4">
+              <a href="#" class="social-icon text-decoration-none"
+                ><i class="fab fa-facebook-f"></i
+              ></a>
+              <a href="#" class="social-icon text-decoration-none"
+                ><i class="fab fa-twitter"></i
+              ></a>
+              <a href="#" class="social-icon text-decoration-none"
+                ><i class="fab fa-instagram"></i
+              ></a>
+              <a href="#" class="social-icon text-decoration-none"
+                ><i class="fab fa-linkedin-in"></i
+              ></a>
+            </div>
+          </div>
+          <div class="col-lg-2 col-md-4">
+            <h5 class="text-white mb-4">Quick Links</h5>
+            <ul class="list-unstyled">
+              <li class="mb-2">
+                <a href="#" class="text-white text-decoration-none">Home</a>
+              </li>
+              <li class="mb-2">
+                <a href="#about" class="text-white text-decoration-none"
+                  >About</a
+                >
+              </li>
+              <li class="mb-2">
+                <a href="#programs" class="text-white text-decoration-none"
+                  >Programs</a
+                >
+              </li>
+              <li class="mb-2">
+                <a href="#admissions" class="text-white text-decoration-none"
+                  >Admissions</a
+                >
+              </li>
+              <li class="mb-2">
+                <a href="#contact" class="text-white text-decoration-none"
+                  >Contact</a
+                >
+              </li>
+            </ul>
+          </div>
+          <div class="col-lg-3 col-md-4">
+            <h5 class="text-white mb-4">Programs</h5>
+            <ul class="list-unstyled">
+              <li class="mb-2">
+                <a href="#" class="text-white text-decoration-none"
+                  >Elementary School</a
+                >
+              </li>
+              <li class="mb-2">
+                <a href="#" class="text-white text-decoration-none"
+                  >Middle School</a
+                >
+              </li>
+              <li class="mb-2">
+                <a href="#" class="text-white text-decoration-none"
+                  >High School</a
+                >
+              </li>
+              <li class="mb-2">
+                <a href="#" class="text-white text-decoration-none"
+                  >Summer Programs</a
+                >
+              </li>
+              <li class="mb-2">
+                <a href="#" class="text-white text-decoration-none"
+                  >After School Care</a
+                >
+              </li>
+            </ul>
+          </div>
+          <div class="col-lg-3 col-md-4">
+            <h5 class="text-white mb-4">Newsletter</h5>
+            <p>
+              Subscribe to our newsletter for the latest school news and events.
+            </p>
+            <div class="input-group mb-3">
+              <input
+                type="email"
+                class="form-control"
+                placeholder="Your email"
+              />
+              <button class="btn btn-primary" type="button">Subscribe</button>
+            </div>
+          </div>
+        </div>
+        <!-- Developer Section -->
+        <div class="row mt-5">
+          <div class="col-12">
+            <div
+              class="d-flex align-items-center justify-content-center flex-column flex-md-row gap-3"
+            >
+              <img
+                src="img/dev avatar.jpg"
+                alt="Developer Photo"
+                class="rounded-circle shadow"
+                style="width: 70px; height: 70px; object-fit: cover"
+              />
+              <div class="text-center text-md-start">
+                <span class="fw-bold text-white" style="font-size: 1.1rem"
+                  >Adeoye 100</span
+                >
+                <div class="text-white-50" style="font-size: 0.95rem">
+                  A Creative Designer, Inspired by the Holy Spirit to create
+                  beautiful and functional web experiences.
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <hr class="mt-4 mb-4" style="border-color: rgba(255, 255, 255, 0.1)" />
+        <div class="row">
+          <div class="col-md-6 text-center text-md-start">
+            <p class="mb-0">
+              &copy; 2023 Prime Time Academy. All rights reserved.
+            </p>
+          </div>
+          <div class="col-md-6 text-center text-md-end">
+            <a href="#" class="text-white me-3 text-decoration-none"
+              >Privacy Policy</a
+            >
+            <a href="#" class="text-white text-decoration-none"
+              >Terms of Service</a
+            >
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <!-- Modal Popup -->
+    <div
+      class="modal fade"
+      id="enrollModal"
+      tabindex="-1"
+      aria-labelledby="enrollModalLabel"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header gradient-bg">
+            <h5 class="modal-title text-white" id="enrollModalLabel">
+              Begin Enrollment Process
+            </h5>
+            <button
+              type="button"
+              class="btn-close btn-close-white"
+              data-bs-dismiss="modal"
+              aria-label="Close"
+            ></button>
+          </div>
+          <div class="modal-body">
+            <p>
+              Thank you for your interest in Prime Time Academy! Please provide
+              some basic information to begin the enrollment process.
+            </p>
+
+            <form>
+              <div class="mb-3">
+                <label for="parentName" class="form-label"
+                  >Parent/Guardian Name
+                </label>
+                <input
+                  type="text"
+                  class="form-control"
+                  id="parentName"
+                  required
+                />
+              </div>
+              <div class="mb-3">
+                <label for="studentName" class="form-label"
+                  >Student Name
+                </label>
+                <input
+                  type="text"
+                  class="form-control"
+                  id="studentName"
+                  required
+                />
+              </div>
+              <div class="mb-3">
+                <label for="modalEmail" class="form-label"
+                  >Email Address
+                </label>
+                <input
+                  type="email"
+                  class="form-control"
+                  id="modalEmail"
+                  required
+                />
+              </div>
+              <div class="mb-3">
+                <label for="gradeLevel" class="form-label"
+                  >Grade Level Applying For
+                </label>
+                <select class="form-select" id="gradeLevel" required>
+                  <option value="" selected disabled>Select grade level</option>
+                  <option>Kindergarten</option>
+                  <option>1st Grade</option>
+                  <option>2nd Grade</option>
+                  <option>3rd Grade</option>
+                  <option>4th Grade</option>
+                  <option>5th Grade</option>
+                  <option>6th Grade</option>
+                </select>
+              </div>
+              <div class="mb-3 form-check">
+                <input
+                  type="checkbox"
+                  class="form-check-input"
+                  id="scheduleTour"
+                />
+                <label class="form-check-label" for="scheduleTour"
+                  >I'd like to schedule a campus tour</label
+                >
+              </div>
+              <div class="modal-footer">
+                <button
+                  type="button"
+                  class="btn btn-secondary"
+                  data-bs-dismiss="modal"
+                >
+                  Close
+                </button>
+                <button type="submit" class="btn btn-primary">
+                  Submit Application
+                </button>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script>
+      const darkModeToggle = document.getElementById("darkModeToggle");
+      const darkModeIcon = document.getElementById("darkModeIcon");
+      const prefersDarkScheme = window.matchMedia(
+        "(prefers-color-scheme: dark)"
+      );
+
+      function setDarkMode(isDark) {
+        if (isDark) {
+          document.body.classList.add("dark-mode");
+          document.documentElement.setAttribute("data-bs-theme", "dark");
+          localStorage.setItem("darkMode", "enabled");
+          if (darkModeIcon)
+            darkModeIcon.innerHTML = '<i class="fas fa-sun"></i>';
+        } else {
+          document.body.classList.remove("dark-mode");
+          document.documentElement.setAttribute("data-bs-theme", "light");
+          localStorage.setItem("darkMode", "disabled");
+          if (darkModeIcon)
+            darkModeIcon.innerHTML = '<i class="fas fa-moon"></i>';
+        }
+      }
+
+      darkModeToggle.addEventListener("click", () => {
+        const isDark = !document.body.classList.contains("dark-mode");
+        setDarkMode(isDark);
+      });
+
+      const currentMode = localStorage.getItem("darkMode");
+      if (
+        currentMode === "enabled" ||
+        (currentMode === null && prefersDarkScheme.matches)
+      ) {
+        setDarkMode(true);
+      } else {
+        setDarkMode(false);
+      }
+
+      // Swiper initialization
+      document.addEventListener("DOMContentLoaded", function () {
+        if (typeof Swiper !== "undefined") {
+          new Swiper(".hero-swiper", {
+            loop: true,
+            navigation: {
+              nextEl: ".swiper-button-next",
+              prevEl: ".swiper-button-prev",
+            },
+            autoplay: {
+              delay: 4000,
+              disableOnInteraction: false,
+            },
+            effect: "fade",
+            speed: 900,
+            preloadImages: false,
+            lazy: true,
+          });
+        }
+        // Enable Bootstrap tooltips
+        var tooltipTriggerList = [].slice.call(
+          document.querySelectorAll('[data-bs-toggle="tooltip"]')
+        );
+        tooltipTriggerList.forEach(function (tooltipTriggerEl) {
+          new bootstrap.Tooltip(tooltipTriggerEl);
+        });
+      });
+
+      // Section scroll-in animation
+      function revealSectionsOnScroll() {
+        const sections = document.querySelectorAll("section, .footer");
+        const trigger = window.innerHeight * 0.92;
+        sections.forEach((section) => {
+          const rect = section.getBoundingClientRect();
+          if (rect.top < trigger) {
+            section.classList.add("visible");
+          }
+        });
+      }
+
+      function isMobile() {
+        return window.innerWidth <= 991;
+      }
+      function handleScrollAnimation() {
+        if (!isMobile()) {
+          window.addEventListener("scroll", revealSectionsOnScroll);
+          revealSectionsOnScroll();
+        } else {
+          document
+            .querySelectorAll("section, .footer")
+            .forEach((s) => s.classList.add("visible"));
+          window.removeEventListener("scroll", revealSectionsOnScroll);
+        }
+      }
+      window.addEventListener("DOMContentLoaded", handleScrollAnimation);
+      window.addEventListener("resize", handleScrollAnimation);
+    </script>
+    <style>
+      section {
+        opacity: 0;
+        transform: translateY(20px);
+        transition: opacity 0.6s ease-out, transform 0.6s ease-out;
+      }
+      section.visible {
+        opacity: 1;
+        transform: translateY(0);
+      }
+      .footer {
+        opacity: 0;
+        transform: translateY(20px);
+        transition: opacity 0.6s ease-out, transform 0.6s ease-out;
+      }
+      .footer.visible {
+        opacity: 1;
+        transform: translateY(0);
+      }
+
+      body.dark-mode {
+        background: #000 !important;
+        color: #f1f1f1;
+      }
+
+      /* Dark mode toggle */
+      .dark-mode-toggle {
+        position: relative;
+        top: 50%;
+        right: 0;
+        transform: translateY(-50%);
+        margin-right: 1rem;
+        z-index: 1050;
+      }
+      @media (max-width: 991.98px) {
+        .dark-mode-toggle {
+          position: absolute;
+          top: auto;
+          bottom: 20px;
+          right: 20px;
+          transform: none;
+          margin-right: 0;
+        }
+      }
+    </style>
+  </body>
+</html>
+<!--I build  to Imrpove and impact, not just to Impress..-->
